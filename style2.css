@@ -1,0 +1,32 @@
+.custom-container {
+    display: flex;
+    align-items: center;
+    background-color: #458B00; /* Yeşil arka plan rengi */
+    padding: 10px;
+    border-radius: 10px;
+}
+.address-dropdown, .search-bar {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.address-dropdown select {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.search-bar input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.search-bar svg {
+    margin-right: 10px;
+    color: #999;
+}

@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="py-2" style="background-color: #458B00; color: white;">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Anasayfa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">E-Bülten</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="iletisim.html">İletişim</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Web Sitelerimiz</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Kariyer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="bizeulasin.html">Şikayet-Öneri</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">
+                                    <img src="img/Flag_of_Turkey.svg.webp" alt="Image Description" style="height: 33px;">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">
+                                    <img src="img/Flag_of_the_United_States.svg.png" alt="Image Description" style="height: 30px;">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">
+                                    <img src="img/Flag_of_Germany.svg.png" alt="Image Description" style="height: 30px;">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">
+                                    <img src="img/Flag_of_France.svg.webp" alt="Image Description" style="height: 30px;">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg" style="background-color: #458B00;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/Pinar-logo.png" alt="pınar logo" style="height: 70px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="urunlerimiz.html" style="color: white;">Ürünlerimiz</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="color: white;">Markalarımız</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="color: white;">Yeni Çıkanlar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="color: white;">Pınar'la Yaşam</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="color: white;">Sürdürülebilirlik</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="color: white;">Medya Merkezi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="color: white;">Yatırımcı İlişkileri</a>
+                        </li>
+                        <div style="width: 20px;"></div>
+                    </ul>
+                    <div class="d-flex">
+                        <div class="order-buttons">
+                            <a class="nav-link text-white" href="siparisver.html">
+                                <img src="img/pinar-online-siparis-ver.png" alt="Sipariş Ver" style="height: 40px;">
+                            </a>
+                        </div>
+                        &nbsp;
+                        <div style="width: 20px;"></div>
+                        <div class="order-buttons">
+                            <a class="nav-link text-white" href="siparisver.html">
+                                <img src="img/pinar-online.png" alt="Online Alışveriş" style="height: 40px;">
+                            </a>
+                        </div>
+                        &nbsp;
+                        <div style="width: 20px;"></div>
+                        <div class="order-buttons">
+                            <a class="nav-link text-white" href="susiparis.html">
+                                <img src="img/pinar-su-siparis-ver.png" alt="Online Alışveriş" style="height: 40px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="d-flex justify-content-center mt-5">
+            <form action="#" method="post" class="p-4 border rounded-3 bg-light" style="max-width: 600px; width: 100%;">
+              <h2 class="mb-4">İletişim Formu</h2>
+              <div class="mb-3">
+                <label for="name" class="form-label">İsim Soyisim</label>
+                <input type="text" id="name" name="name" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">E-posta Adresi</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Mesajınız</label>
+                <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="background-color:  #458B00; border-color: #458B00;">Gönder</button>
+            </form>
+          </div>
+          <footer class="footer text-white py-5" style="background-color:#458B00; " >
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 mb-4">
+         
+                        <h5 class="">Hakkımızda</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="kariyer" class="text-white" style="text-decoration: none;">Kariyer</a></li>
+                            <li><a href="iletisim" class="text-white" style="text-decoration: none;">İletişim</a></li>
+                            <li><a href="markalarımız" class="text-white" style="text-decoration: none;">Markalarımız</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <h5 class="">Ödüllerimiz</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="2023 ödüller" class="text-white" style="text-decoration: none;">2023 Ödüller</a></li>
+                            <li><a href="2022 ödüller" class="text-white" style="text-decoration: none;">2022 Ödüller</a></li>
+                            <li><a href="2021 ödüller" class="text-white" style="text-decoration: none;">2021 Ödüller</a></li>
+                            <li><a href="2019 ödüller" class="text-white" style="text-decoration: none;">2019 Ödüller</a></li>
+                            <li><a href="2017 ödüller" class="text-white" style="text-decoration: none;">2017 Ödüller</a></li>
+                            <li><a href="2015 ödüller" class="text-white" style="text-decoration: none;">2015 Ödüller</a></li>
+                            <li><a href="2014 ödüller" class="text-white" style="text-decoration: none;">2014 Ödüller</a></li>
+                            <li><a href="2010 ödüller" class="text-white" style="text-decoration: none;">2010 Ödüller</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <h5 class="">Kurumsal Sosyal Sorumluluğumuz</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="pınar-cocuk-resim" class="text-white" style="text-decoration: none;">Pınar Çocuk Resim Yarışması </a></li>
+                            <li><a href="pınar-cocuk-tiyatro" class="text-white" style="text-decoration: none;">Pınar Çocuk Tiyatro Yarışması</a></li>
+                            <li><a href="pınar-karsıyaka" class="text-white" style="text-decoration: none;">Pınar Karşıyaka Ana Sponsorluğu</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <h5 class="">Size Yardımcı Olalım</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="ürünlerimiz" class="text-white" style="text-decoration: none;">Ürünlerimiz Hakkında Bilgiler</a></li>
+                            <li><a href="müsteri-memnuniyeti" class="text-white"style="text-decoration:none;">Müşteri Memnuniyeti</a></li>
+                            <li><a href="bizimle-iletisime-gecin" class="text-white" style="text-decoration: none;">Bizimle İletişime Geçin</a></li>
+                            <li><a href="erisilebilirlik" class="text-white" style="text-decoration: none;">Erişilebilirlik</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <hr class="bg-light">
+                        <p class="mb-0">Web sitemizde size en iyi deneyimi sunabilmek için çerezleri kullanıyoruz.</p>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <p>Sosyal medya hesaplarımızı takip edin:</p>
+                        <ul class="list-unstyled d-flex">
+                            <li>
+                                <a href="https://www.facebook.com/pinarlayasam/" class="text-white me-3">
+                                    <img src="img/facebook.png" alt="Facebook" style="height: 30px;">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/user/pinarlezzetleri" class="text-white me-3">
+                                    <img src="img/youtube.png" alt="Youtube" style="height: 30px;">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://x.com/i/flow/login?redirect_after_login=%2Fpinarkurumsal" class="text-white me-3">
+                                    <img src="img/twitter.png"alt="Twitter" style="height: 30px;">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/pinarlayasam/" class="text-white me-3">
+                                    <img src="img/instagram.png" alt="Instagram" style="height: 30px;">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/pinar-sut/?originalSubdomain=tr" class="text-white me-3">
+                                    <img src="img/linkedin.png" alt="LinkedIn" style="height: 30px;">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+            
+        </body>
+        </html>
+    

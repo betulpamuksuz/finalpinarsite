@@ -1,0 +1,43 @@
+/* Genel kenar boşlukları ve dolgu stilleri */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden; /* Yatay kaydırma çubuğunu gizler */
+}
+
+/* Navbar stilleri */
+.navbar {
+    background-color: #1CBCE8;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    margin: 0 10px;
+}
+
+/* Carousel stilleri */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+.carousel-indicators button {
+    background-color: #1CBCE8;
+}
+
+.carousel-indicators .active {
+    background-color: #0A74A6;
+}
+
+/* Carousel içeriğinin tam genişlikte olmasını sağlar */
+.carousel {
+    width: 100%;
+    margin: 0 auto;
+}
